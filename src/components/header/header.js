@@ -1,6 +1,6 @@
 import "./index.scss";
 import bgLogo from "./images/star-top.svg";
-// import topPhoto from "./images/top-foto.jpg"
+import topPhoto from "./images/top-foto.png"
 import rugbyLogo from "./images/rugby_europe_logo.png"
 import React from "react";
 
@@ -21,7 +21,7 @@ function Header() {
       </div>
      
       
-      {/*<img src={topPhoto} alt=""/>*/}
+      <img src={topPhoto} alt=""/>
     </div>
   );
 }
