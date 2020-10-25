@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/platika/static/css/main.549b145a.chunk.css",
-    "main.js": "/platika/static/js/main.c9404637.chunk.js",
-    "main.js.map": "/platika/static/js/main.c9404637.chunk.js.map",
-    "runtime-main.js": "/platika/static/js/runtime-main.58ee6d41.js",
-    "runtime-main.js.map": "/platika/static/js/runtime-main.58ee6d41.js.map",
-    "static/js/2.3e86bdad.chunk.js": "/platika/static/js/2.3e86bdad.chunk.js",
-    "static/js/2.3e86bdad.chunk.js.map": "/platika/static/js/2.3e86bdad.chunk.js.map",
-    "static/js/3.5b1b8f0e.chunk.js": "/platika/static/js/3.5b1b8f0e.chunk.js",
-    "static/js/3.5b1b8f0e.chunk.js.map": "/platika/static/js/3.5b1b8f0e.chunk.js.map",
-    "index.html": "/platika/index.html",
-    "static/css/main.549b145a.chunk.css.map": "/platika/static/css/main.549b145a.chunk.css.map",
-    "static/js/2.3e86bdad.chunk.js.LICENSE.txt": "/platika/static/js/2.3e86bdad.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/platika/static/media/Gilroy-Regular.b91b0127.ttf",
-    "static/media/rugby_europe_logo.993840a4.png": "/platika/static/media/rugby_europe_logo.993840a4.png",
-    "static/media/star-top.8d4b3734.svg": "/platika/static/media/star-top.8d4b3734.svg"
+    "main.css": "/static/css/main.8e42e576.chunk.css",
+    "main.js": "/static/js/main.c9404637.chunk.js",
+    "main.js.map": "/static/js/main.c9404637.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb8cb423.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb8cb423.js.map",
+    "static/js/2.3e86bdad.chunk.js": "/static/js/2.3e86bdad.chunk.js",
+    "static/js/2.3e86bdad.chunk.js.map": "/static/js/2.3e86bdad.chunk.js.map",
+    "static/js/3.5b1b8f0e.chunk.js": "/static/js/3.5b1b8f0e.chunk.js",
+    "static/js/3.5b1b8f0e.chunk.js.map": "/static/js/3.5b1b8f0e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8e42e576.chunk.css.map": "/static/css/main.8e42e576.chunk.css.map",
+    "static/js/2.3e86bdad.chunk.js.LICENSE.txt": "/static/js/2.3e86bdad.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/Gilroy-Regular.b91b0127.ttf",
+    "static/media/rugby_europe_logo.993840a4.png": "/static/media/rugby_europe_logo.993840a4.png",
+    "static/media/star-top.8d4b3734.svg": "/static/media/star-top.8d4b3734.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.58ee6d41.js",
+    "static/js/runtime-main.fb8cb423.js",
     "static/js/2.3e86bdad.chunk.js",
-    "static/css/main.549b145a.chunk.css",
+    "static/css/main.8e42e576.chunk.css",
     "static/js/main.c9404637.chunk.js"
   ]
 }
