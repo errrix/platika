@@ -4,6 +4,7 @@ import Header from "./components/header/header";
 import Video from "./components/video/video";
 import InterChamp from "./components/interChamp/inter-champ";
 import Sevens from "./components/sevens/sevens";
+import ClubRugby from "./components/clubRugby/sevens";
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
           <Video/>
           <InterChamp/>
           <Sevens/>
+          <ClubRugby/>
         </div>
       </Suspense>
     

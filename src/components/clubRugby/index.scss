@@ -1,0 +1,52 @@
+$cmp: ".club-rugby";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  background-color: #10193E;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 50px 0 0 0;
+  margin-top: -65px;
+  position: relative;
+  z-index: 4;
+
+  &__text-image {
+    display: flex;
+    justify-content: space-between;
+
+    &--text {
+      margin-top: 100px;
+      padding-left: 255px;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FFB800;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    width: 370px;
+
+    span {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__border-bottom {
+    background-color: #FFB800;
+    width: 940px;
+    height: 5px;
+    margin: 100px auto 0 auto;
+  }
+
+}
