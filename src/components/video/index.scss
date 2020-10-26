@@ -1,0 +1,25 @@
+$cmp: ".video";
+
+#{$cmp} {
+  padding-top: 20px;
+  background-color: #10193E;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 570px;
+  border-top: 5px solid #FFB800;
+  border-bottom: 5px solid #FFB800;
+
+  &__content-block {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 570px;
+
+  }
+
+  &__play-video--image {
+    cursor: pointer;
+  }
+}

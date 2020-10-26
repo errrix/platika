@@ -14,7 +14,7 @@ function Header({t, i18n}) {
                 <div className="header__title-block">
                     <div className="header__text-image">
                         <div className="header__rugby-logo">
-                            <img src={rugbyLogo} alt=""/>
+                            <img src={rugbyLogo} alt="logo"/>
                         </div>
                         <div>
                             <h1 className="header__title">{t("header.name")}</h1>
