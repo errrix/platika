@@ -5,6 +5,7 @@ import Video from "./components/video/video";
 import InterChamp from "./components/interChamp/inter-champ";
 import Sevens from "./components/sevens/sevens";
 import ClubRugby from "./components/clubRugby/sevens";
+import YouthRugby from "./components/youthRugby/youth-rugby";
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
           <InterChamp/>
           <Sevens/>
           <ClubRugby/>
+          <YouthRugby/>
         </div>
       </Suspense>
     

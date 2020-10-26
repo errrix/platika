@@ -38,7 +38,7 @@ function Header({t, i18n}) {
                             <a href="#inter-champ">{t("header.link2")}</a>
                             <a href="#sevens">{t("header.link3")}</a>
                             <a href="#club-rugby">{t("header.link4")}</a>
-                            <a href="#">{t("header.link5")}</a>
+                            <a href="#youth-rugby">{t("header.link5")}</a>
                             <a href="#">{t("header.link6")}</a>
                             <a href="#">{t("header.link7")}</a>
                             <a href="#">{t("header.link8")}</a>
