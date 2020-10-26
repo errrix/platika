@@ -9,6 +9,7 @@ $cmp: ".inter-champ";
 
   &__text-image {
     display: flex;
+    justify-content: space-between;
 
     &--text {
       padding-left: 185px;
@@ -17,8 +18,9 @@ $cmp: ".inter-champ";
   }
 
   &__title {
+    font-family: "PFDinCondensedRegular", sans-serif;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 30px;
     line-height: 35px;
     text-transform: uppercase;
     color: #FFB800;
