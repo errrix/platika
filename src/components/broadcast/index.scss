@@ -1,0 +1,53 @@
+$cmp: ".broadcast";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  background-color: #FFFFFF;
+  color: #0B163E;
+  padding-top: 165px;
+  position: relative;
+  min-height: 770px;
+  box-sizing: border-box;
+
+
+  &__content {
+    width: 940px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    max-width: 226px;
+    font-family: "PFDinCondensedRegular", sans-serif;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    max-width: 300px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .bg {
+    height: 770px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+
+  .tv {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

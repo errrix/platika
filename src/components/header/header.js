@@ -47,11 +47,11 @@ function Header({t, i18n}) {
                             <a href="#electronic-data">{t("header.link9")}</a>
                             <a href="#audience">{t("header.link10")}</a>
                             <a href="#spectator-program">{t("header.link11")}</a>
-                            <a href="#">{t("header.link12")}</a>
-                            <a href="#">{t("header.link13")}</a>
-                            <a href="#">{t("header.link14")}</a>
-                            <a href="#">{t("header.link15")}</a>
-                            <a href="#">{t("header.link16")}</a>
+                            <a href="#broadcast">{t("header.link12")}</a>
+                            <a href="#types-rugby">{t("header.link13")}</a>
+                            <a href="#equality">{t("header.link14")}</a>
+                            <a href="#reforms">{t("header.link15")}</a>
+                            <a href="#final">{t("header.link16")}</a>
                         </div>
                     </div>
 

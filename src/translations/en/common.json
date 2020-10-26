@@ -1,5 +1,5 @@
 {
-  "header" : {
+  "header": {
     "name": "KIRILL YASHENKOV",
     "intro": "Candidate’s Program for the post of President of Rugby Europe",
     "link1": "Introduction",
@@ -22,62 +22,79 @@
     "about-strong": "Let’s make Rugby Europe strong together!",
     "about-signature": "Sincerely, Kirill Yashenkov"
   },
-
-  "inter-champ" : {
+  "inter-champ": {
     "title": "Rugby Europe International Championships",
     "text1": "Rugby Europe International Championships should reach the level of the world’s leading tournaments in terms of the quality of infrastructure and competition conduct. I intend to help national rugby unions get the right to play at large and modern stadiums, systematically increase media attention and number of supporters, so that Rugby Europe International Championships eventually becomes an appealing tournament for sponsors and broadcasters.",
     "text2": "In the Trophy, Conference 1, Conference 2 and Development divisions, Rugby Europe will facilitate the improvement of match organization and increase the number of international games by organizing official tests between divisions under the auspices of Rugby Europe and the teams from other continents. We need to create conditions for growth and progress by improving the quality of competitions, and we need to change the role of Rugby Europe in organizing tournaments and participating in the development of European Rugby.",
     "text3": "Besides, it is important to enhance the role of Rugby Europe in the life of unions and federations, which are virtually left to themselves today. It is necessary to establish and implement a comprehensive support program in the form of additional targeted grants aimed to encourage overall progress as well as providing assistance to acquire special equipment and essential gear. But this is only the first step!"
   },
-
-  "sevens" : {
+  "sevens": {
     "title": "Rugby Europe Sevens",
     "text1": "This competition in its’ current format has outlasted itself and, in fact, is nothing more than a platform for qualifying for the World Cup and the Olympics. I intend to reform the Rugby Europe Sevens and rebrand the tournament in analogy with the World Rugby Sevens Series. Starting from 2022, we need to increase the number of legs to five and, on a competitive basis, to determine the cities that will host the tournament legs permanently, for example - Amsterdam, Rome, Benidorm, Berlin, Moscow or Barcelona.",
     "text2": "It is necessary that matches should take place at high-quality stadiums with the involvement of spectators and the organization of a full matchday. Within three years, we will create a modern tournament that will not only give the best players an opportunity to prove themselves and reach a new level, but also contribute to the development of interest in rugby in the hosting countries. At the same time, partial compensation for team expenses will be provided from sponsorship funds, and the sports principle will give teams from lower divisions an incentive to progress."
   },
-
-  "club-rugby" : {
+  "club-rugby": {
     "title": "CLUB RUGBY",
     "text1": "Nowadays in many regions club rugby simply does not have the opportunity to grow due to the extremely small number of cross-border tournaments. I am planning to solve this problem by creating interregional clusters. This will ensure holding a large number of competitions, where both clubs, franchises or even national teams which are close to each other geographically, can compete against each other according to their level of skill. In 2022 I intend to create eight clusters, comprising from four to eight teams from neighboring regions each.",
     "text2": "The number of clubs and competition formats in clusters will depend on the features and capabilities of the participating countries. Local unions will decide independently which teams and on which principles will represent the country. Rugby Europe will take care of the organizational issues. Each cluster will have its own coordinating body. I will also initiate the organization of a new club tournament similar to Continental Shield, which will involve the strongest clubs in the second tier of European Rugby. Together this will not only ensure further growth of already existing teams, but also create conditions for new clubs to arise. My experience in organizing a Continental Club Rugby League, which did not take place for reasons beyond my control, shows how great the necessity for such competitions is."
   },
-
-  "youth-rugby" : {
+  "youth-rugby": {
     "title": "Youth RUGBY",
     "text1": "We need to create an opportunity for young players to get as much game practice as possible. Today the U18 and U20 teams play only three games a year within a short period of time during intercontinental tournaments. It is a disastrously small amount of practice! It is necessary to hold a Second Teams Tournament alongside the Rugby Europe International Championships, where players will compete within respective age groups. In addition, with the financial support of sponsors we will be able to expand the format of the European Championship and hold it",
     "text2": "over a much longer time period with a group stage, a larger number of participants and teams from other countries. We will provide conditions for countries from the Trophy, Conference 1, Conference 2 and Development divisions to ensure the progress of their youth teams. Besides, I also consider it very important to hold the European U-16 Championship. The more good practice young players get, the stronger they will be in the future!"
   },
-
-  "womens-rugby" : {
+  "womens-rugby": {
     "title": "Women’s Rugby",
     "text": "Every year more and more women start to play rugby and discover new facets of the game, fulfilling themselves as athletes and individuals. We need to provide more comfortable conditions for women’s competitions to encourage the influx of players. That means we need to improve the quality of the organization of the European Championship and expand the number of participants consistently, introduce the practice of holding Youth Championship on the continent, engage women in partaking as referees and match commissioners, as well as management structures staff. I plan that by 2024 there will be six participating teams in Women’s European Championships, and the number of legs of the Women’s European Championship Sevens will increase up to three."
   },
-
-  "world-rugby" : {
+  "world-rugby": {
     "title": "World Rugby and the Intercontinental partnership",
     "text1": "Rugby Europe is poorly integrated into international communication, partnership and interaction processes. It is necessary to actively and effectively develop these ties, first of all – collaborative/cooperative work with World Rugby. We need a support in implementing educational programs, developing methodological materials, and raising the level of competition.",
     "text2": "Partnership with other continental associations, such as America and Asia, will allow not only to organize test matches of second-and third-tier teams, but also to conduct exhibition commercial matches. For example, a game between an American champion and a European champion, which is guaranteed to attract audience. At the moment, most European teams from the Trophy, Conference 1, Conference 2 and Development divisions play only 3 to 5 games a year. This is catastrophically insufficient if we want to ensure sustainable growth of sportsmanship and level of the game. I intend to change this!"
   },
-
-  "education" : {
+  "education": {
     "title": "Educational platform",
     "text": "Regular and high-quality improvement of the skill level of all players, involved in rugby, and professionals across the continent should be one of Rugby Europe’s top priorities. We will be able to show consistent progress from year to year only by adopting the knowledge and experience of the best specialists. I intend to create a comprehensive educational program that will combine both online and offline training. A full-scale modern web-platform will be developed and launched during 2021. It will include all the progressive methods of teaching and providing information for players, coaches, referees and managers. In addition to that, an educational program for players and coaches in special training camps will be implemented and held annually in all countries."
   },
-
-  "electronic-data" : {
+  "electronic-data": {
     "title": "Electronic database",
     "text": "It is necessary to use modern means of accounting and generating statistics in order to improve the quality of competitions comprehensively. That is why I suggest creating a powerful web platform Rugby Europe, which will work not only for the benefit of continental, but also national tournaments. This is an independent service with the functions of accounting and certification of players, an electronic database of competitions with live updates, data exchange via api, which will simplify the work of managers, coaches and commissioners, will avoid the participation of disqualified players and those not allowed to compete, deliver the information to coaches right during the game, and will meet the world's advanced accounting and statistics standards. Expanding the amount of statistical data increases the interest in competitions from bookmakers, who in turn stimulate the interest of the audience."
   },
-
-  "audience" : {
+  "audience": {
     "title": "Audience is the main capital",
     "text1": "It is necessary to increase the audience regularly, in order to ensure a steady growth in the popularity and level of rugby. It is critical to create an environment in which as many people as possible will be interested in European Rugby and will follow it. It is important to solve a set of problems to achieve this: to reform the approach of Rugby Europe to creating quality content. The goal is to create a modern website, mobile app and bright social networks that will be regularly filled with relevant and interesting information, post photos and videos of the highest quality.",
     "text2": "In addition, Rugby Europe should promote the development of media presence of unions, providing both advisory and training, as well as technical assistance in the form of launching modern websites. Generate interest to competitions from the world's leading mass media. By 2024, the total audience of all Rugby Europe media platforms should reach 1 million people."
   },
-
-  "spectator-program" : {
+  "spectator-program": {
     "title": "Spectator’s program",
     "text1": "It is impossible to create a high-quality product and find new commercial partners when the vast majority of European competitions are held in small outdated stadiums with half-empty stands. We need to radically change this situation and raise the level of competition through both: investments and changes in the approach to work on the part of Rugby Europe.",
     "text2": "I intend not only to review the requirements for stadiums that host matches of the Rugby Europe International Championships and the Sevens Grand Prix Series, as well as youth tournaments, but also to provide comprehensive support to the hosting countries. We will create a dedicated Rugby Europe Department that will work with the audience, develop loyalty programs and create various activities that will attract people to stadiums, and national unions will get an access to modern arenas. I intend to ensure that by 2024 all major Rugby Europe tournaments will have at least 10-15 thousand people in the stands."
+  },
+  "broadcast": {
+    "title": "Broadcasts are the key to engagement",
+    "description": "With all of the above, we can't aspire to attract new fans if we don't offer them a product of the highest quality. The world's leading tournaments, such as the World Cup, Six Nations Cup or Rugby Championship, set high standards for the elite competitions of Rugby Europe to fulfil. It is necessary to create a single pool of TV rights that will allow local broadcasters to show Rugby Europe tournaments in full, along with increasing the level of broadcasts. I intend to launch my own OTT platform Rugby Europe so that all matches can be viewed anywhere in the world, as well as simultaneously in several languages by 2022. In addition to broadcasting, we will develop partnerships with the world's leading media holdings in order to broadcast our tournaments to as many people as possible."
+  },
+  "types_rugby": {
+    "title": "Non-contact rugby, beach rugby, snow rugby",
+    "text1": "One of the most effective ways to attract people to rugby is to give them a ball and just let them play. But not everyone is ready to test themselves in the contact game, so the stereotype that rugby is a violent sport is still strong enough. In order to change this, World Rugby is actively implementing non-contact rugby practices in the Get into Rugby and Rugby X programs. I believe that we should contribute as much as possible to the development of such projects, because they allow us to involve a lot of people without special training, which is especially important for developing rugby unions.",
+    "text2": "I intend to establish a comprehensive program to promote non-contact Rugby in Europe and create a separate structural division and a website for this purpose, as well as to initiate the Continental Tag-Rugby and Rugby-10 tournaments. On top of that, Rugby Europe should take on the responsibility of providing the material base for such competitions in developing countries. For example, balls, uniform and all necessary equipment.",
+    "text3": "Much attention should be paid to beach and snow rugby, which are not particularly popular in developed countries, but open excellent prospects for the development of the game in regions with harsh climate, such as Scandinavia. This approach will attract thousands of people to the ranks of rugby players every year."
+  },
+  "equality": {
+    "title": "Equality",
+    "description": "Rugby Europe's mission is not only to promote the progress of the game, but also to preserve and develop the core values of rugby. We must create equal conditions and opportunities for players of all nationalities, faiths and gender identities to engage, develop and reveal themselves within the game. There is no place for discrimination, disrespect or intolerance in rugby, and Rugby Europe will strive to support and develop these principles under my leadership."
+  },
+  "reforms": {
+    "title": "Organizational reform",
+    "description1": "It is impossible to implement all the previous points of the program without a strong team of professionals and leaders in their industries. I intend to create a team, recruiting these people in the management of key areas. It is also very important to fundamentally reconsider the way Rugby Europe works with national unions, which are now virtually separated from the governing body.",
+    "description2": "I plan to create a management structure where each division of the Rugby Europe International Championships with its own manager, who will hold general and individual meetings at least once a quarter and help to solve various problems, which unions have and are left with on their own now. Rugby Europe managers should regularly visit all countries, provide help in solving various problems, create and implement a development strategy for each region. Only by creating a solid system of communication and mutual assistance we will be able to build a sustainable, self-sufficient and successful organization, which is what Rugby Europe should be."
+  },
+  "reforms2": {
+    "title": "Organizational reform",
+    "description1": "The COVID19 pandemic has shown how serious the consequences of financial instability can be for the entire world of sport and for rugby in particular. The problem is that European rugby does not have a stable commercial model for monetization of a sports product, and the commercial potential of our sport is very poorly developed. During the pre-election campaign stage, I attracted a potential sponsor who sees prospects in building a successful Rugby Europe brand and is ready to double the organization's budget. But this is just a first step.",
+    "description2": "We need to initiate the signing of contracts with one of the world's leading insurance companies, so that players on every level can feel protected from the consequences of serious injuries. Because today treatment and rehabilitation after those injuries rest only on player’s shoulders. I intend to create not only a financially, but also a commercially sustainable structure that will diversify risks and strive to develop equally the game and commercial direction. These are equivalent components of success as we can see from the example of the world's most successful leagues in various sports."
+  },
+  "final": {
+    "description": "Thank you for your support and I hope that together we will make Rugby Europe strong!"
   }
 }

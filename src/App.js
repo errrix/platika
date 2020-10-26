@@ -12,6 +12,12 @@ import Education from "./components/education/education";
 import ElectronicData from "./components/electronic-data/electronic-data";
 import Audience from "./components/audience/audience";
 import SpectatorProgram from "./components/spectator-program/spectator-program";
+import Broadcast from "./components/broadcast/broadcast";
+import TypesRugby from "./components/types-regby/types-rugby";
+import Equality from "./components/equality/equality";
+import Reforms from "./components/reforms/reforms";
+import Reforms2 from "./components/reforms2/reforms2";
+import Final from "./components/final/final";
 
 class App extends React.Component {
   render() {
@@ -30,6 +36,12 @@ class App extends React.Component {
           <ElectronicData/>
           <Audience/>
           <SpectatorProgram/>
+          <Broadcast/>
+          <TypesRugby/>
+          <Equality/>
+          <Reforms/>
+          <Reforms2/>
+          <Final/>
         </div>
       </Suspense>
     

@@ -1,0 +1,56 @@
+$cmp: ".reforms";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  color: #0B163E;
+  padding-top: 210px;
+  position: relative;
+  min-height: 770px;
+  box-sizing: border-box;
+  border-bottom: 5px solid #FFB800;
+
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 840px;
+    padding-left: 74px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "PFDinCondensedRegular", sans-serif;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 54px;
+  }
+
+  &__desc {
+    max-width: 300px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 30px;
+  }
+
+  .bg {
+    height: 770px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+
+  .photo {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+  }
+}

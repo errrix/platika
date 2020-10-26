@@ -1,0 +1,63 @@
+$cmp: ".types-rugby";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  background-color: #0B163E;
+  color: #FFFFFF;
+  padding-top: 145px;
+  position: relative;
+  min-height: 770px;
+  box-sizing: border-box;
+
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+  }
+
+  &__title {
+    align-self: flex-start;
+    text-transform: uppercase;
+    color: #FFB800;
+    font-size: 30px;
+    font-family: "PFDinCondensedRegular", sans-serif;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-right: 70px;
+    background-color: #0B163E;
+  }
+
+  &__desc {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      width: 300px;
+    }
+  }
+
+  .bg {
+    height: 770px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+
+  .tv {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+  }
+}
