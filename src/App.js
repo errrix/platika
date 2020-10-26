@@ -11,6 +11,7 @@ import WorldRugby from "./components/worldRugby/world-rugby";
 import Education from "./components/education/education";
 import ElectronicData from "./components/electronic-data/electronic-data";
 import Audience from "./components/audience/audience";
+import SpectatorProgram from "./components/spectator-program/spectator-program";
 
 class App extends React.Component {
   render() {
@@ -28,6 +29,7 @@ class App extends React.Component {
           <Education/>
           <ElectronicData/>
           <Audience/>
+          <SpectatorProgram/>
         </div>
       </Suspense>
     

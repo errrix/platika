@@ -1,0 +1,46 @@
+$cmp: ".spectator-program";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  background-repeat: no-repeat;
+  padding-top: 75px;
+  height: 690px;
+  font-size: 0;
+
+  &__content-block {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  &__info {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__title {
+    font-family: "PFDinCondensedRegular", sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFB800;
+    width: 190px;
+    margin-right: 60px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    width: 300px;
+
+    span {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+}
