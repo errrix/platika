@@ -8,6 +8,7 @@ import ClubRugby from "./components/clubRugby/sevens";
 import YouthRugby from "./components/youthRugby/youth-rugby";
 import WomansRugby from "./components/womensRugby/womens-rugby";
 import WorldRugby from "./components/worldRugby/world-rugby";
+import Education from "./components/education/education";
 
 class App extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class App extends React.Component {
           <YouthRugby/>
           <WomansRugby/>
           <WorldRugby/>
+          <Education/>
         </div>
       </Suspense>
     

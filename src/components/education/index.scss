@@ -1,0 +1,38 @@
+$cmp: ".education";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  background-repeat: no-repeat;
+  padding-top: 75px;
+  min-height: 685px;
+  font-size: 0;
+
+  &__info {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: "PFDinCondensedRegular", sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0B163E;
+    width: 400px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0B163E;
+    width: 300px;
+
+  }
+
+}
