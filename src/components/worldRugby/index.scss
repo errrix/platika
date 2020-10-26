@@ -1,0 +1,41 @@
+$cmp: ".world-rugby";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  min-height: 640px;
+  font-size: 0;
+
+  &__info {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+  }
+
+  &__title {
+    font-family: "PFDinCondensedRegular", sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFB800;
+    width: 450px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 380px;
+    margin-top: 40px;
+
+    span {
+      display: block;
+      margin-bottom: 25px;
+    }
+  }
+
+}

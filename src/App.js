@@ -6,6 +6,8 @@ import InterChamp from "./components/interChamp/inter-champ";
 import Sevens from "./components/sevens/sevens";
 import ClubRugby from "./components/clubRugby/sevens";
 import YouthRugby from "./components/youthRugby/youth-rugby";
+import WomansRugby from "./components/womensRugby/womens-rugby";
+import WorldRugby from "./components/worldRugby/world-rugby";
 
 class App extends React.Component {
   render() {
@@ -18,6 +20,8 @@ class App extends React.Component {
           <Sevens/>
           <ClubRugby/>
           <YouthRugby/>
+          <WomansRugby/>
+          <WorldRugby/>
         </div>
       </Suspense>
     

@@ -1,0 +1,41 @@
+$cmp: ".womens-rugby";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  background-color: #FFFFFF;
+  padding-top: 60px;
+  font-size: 0;
+
+  &__info {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+  }
+
+  &__title {
+    font-family: "PFDinCondensedRegular", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #10163E;
+    position: relative;
+    padding-right: 55px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #10193E;
+    width: 300px;
+    padding-left: 70px;
+    margin-top: 30px;
+  }
+
+  &__image-block {
+    margin-top: -650px;
+  }
+
+}

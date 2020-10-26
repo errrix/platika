@@ -21,7 +21,7 @@ function YouthRugby({t, i18n}) {
                     </div>
                 </div>
                 <div className="youth-rugby__image-block">
-                    <img className="club-rugby__image" src={youthRugbyTeam} alt="Youth RUGBY"/>
+                    <img className="youth-rugby__image" src={youthRugbyTeam} alt="Youth RUGBY"/>
                 </div>
             </div>
         </div>

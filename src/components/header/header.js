@@ -39,9 +39,9 @@ function Header({t, i18n}) {
                             <a href="#sevens">{t("header.link3")}</a>
                             <a href="#club-rugby">{t("header.link4")}</a>
                             <a href="#youth-rugby">{t("header.link5")}</a>
-                            <a href="#">{t("header.link6")}</a>
-                            <a href="#">{t("header.link7")}</a>
-                            <a href="#">{t("header.link8")}</a>
+                            <a href="#womens-rugby">{t("header.link6")}</a>
+                            <a href="#world-rugby">{t("header.link7")}</a>
+                            <a href="#educational-platform">{t("header.link8")}</a>
                         </div>
                         <div className="header__menu--column-2">
                             <a href="#">{t("header.link9")}</a>
