@@ -35,23 +35,23 @@ function Header({t, i18n}) {
                     <div className="header__menu">
                         <div className="header__menu--column-1">
                             <a href="#introduction">{t("header.link1")}</a>
-                            <a href="#introduction">{t("header.link2")}</a>
-                            <a href="#introduction">{t("header.link3")}</a>
-                            <a href="#introduction">{t("header.link4")}</a>
-                            <a href="#introduction">{t("header.link5")}</a>
-                            <a href="#introduction">{t("header.link6")}</a>
-                            <a href="#introduction">{t("header.link7")}</a>
-                            <a href="#introduction">{t("header.link8")}</a>
+                            <a href="#inter-champ">{t("header.link2")}</a>
+                            <a href="#sevens">{t("header.link3")}</a>
+                            <a href="#club-rugby">{t("header.link4")}</a>
+                            <a href="#">{t("header.link5")}</a>
+                            <a href="#">{t("header.link6")}</a>
+                            <a href="#">{t("header.link7")}</a>
+                            <a href="#">{t("header.link8")}</a>
                         </div>
                         <div className="header__menu--column-2">
-                            <a href="#introduction">{t("header.link9")}</a>
-                            <a href="#introduction">{t("header.link10")}</a>
-                            <a href="#introduction">{t("header.link11")}</a>
-                            <a href="#introduction">{t("header.link12")}</a>
-                            <a href="#introduction">{t("header.link13")}</a>
-                            <a href="#introduction">{t("header.link14")}</a>
-                            <a href="#introduction">{t("header.link15")}</a>
-                            <a href="#introduction">{t("header.link16")}</a>
+                            <a href="#">{t("header.link9")}</a>
+                            <a href="#">{t("header.link10")}</a>
+                            <a href="#">{t("header.link11")}</a>
+                            <a href="#">{t("header.link12")}</a>
+                            <a href="#">{t("header.link13")}</a>
+                            <a href="#">{t("header.link14")}</a>
+                            <a href="#">{t("header.link15")}</a>
+                            <a href="#">{t("header.link16")}</a>
                         </div>
                     </div>
 

@@ -4,6 +4,7 @@ $cmp: ".header";
   padding-top: 20px;
   background-color: #10193E;
   background-repeat: no-repeat;
+  font-family: 'GilroyMedium', sans-serif;
 
   &__content-block {
     width: 940px;
@@ -18,7 +19,6 @@ $cmp: ".header";
     margin-top: 90px;
     flex-wrap: wrap;
     align-items: center;
-    font-family: 'GilroyMedium', sans-serif;
     color: #FFB800;
 
   }

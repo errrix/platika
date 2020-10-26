@@ -2,6 +2,7 @@
 import React, { Suspense } from 'react';
 import Header from "./components/header/header";
 import Video from "./components/video/video";
+import InterChamp from "./components/interChamp/inter-champ";
 
 class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
         <div className="container">
           <Header/>
           <Video/>
+          <InterChamp/>
         </div>
       </Suspense>
     

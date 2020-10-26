@@ -1,0 +1,57 @@
+$cmp: ".inter-champ";
+
+#{$cmp} {
+  font-family: 'GilroyMedium', sans-serif;
+  padding-top: 20px;
+  background-color: #10193E;
+  min-height: 570px;
+
+  &__text-image {
+    display: flex;
+
+    &--text {
+      padding-left: 185px;
+      margin-right: -45px;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FFB800;
+    position: relative;
+    margin-top: 90px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      height: 5px;
+      width: 550px;
+      background-color: #FFB800;
+      bottom: -10px;
+      left: 0;
+    }
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    width: 385px;
+
+    span {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__image {
+    margin-top: -107px;
+    position: relative;
+    z-index: 3;
+  }
+}
