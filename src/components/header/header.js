@@ -51,7 +51,7 @@ function Header({t, i18n}) {
                             <a href="#types-rugby">{t("header.link13")}</a>
                             <a href="#equality">{t("header.link14")}</a>
                             <a href="#reforms">{t("header.link15")}</a>
-                            <a href="#final">{t("header.link16")}</a>
+                            <a href="#commerce">{t("header.link16")}</a>
                         </div>
                     </div>
 

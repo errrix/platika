@@ -7,6 +7,7 @@ import stadium from "./images/stadium-reforms.png"
 function Reforms2({t, i18n}) {
   return (
     <div className="reforms2">
+      <a name="commerce"/>
       <div className="reforms2__content">
         <div className="reforms2__title">
           {t("reforms2.title")}
