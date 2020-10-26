@@ -58,8 +58,20 @@
     "text1": "Rugby Europe is poorly integrated into international communication, partnership and interaction processes. It is necessary to actively and effectively develop these ties, first of all – collaborative/cooperative work with World Rugby. We need a support in implementing educational programs, developing methodological materials, and raising the level of competition.",
     "text2": "Partnership with other continental associations, such as America and Asia, will allow not only to organize test matches of second-and third-tier teams, but also to conduct exhibition commercial matches. For example, a game between an American champion and a European champion, which is guaranteed to attract audience. At the moment, most European teams from the Trophy, Conference 1, Conference 2 and Development divisions play only 3 to 5 games a year. This is catastrophically insufficient if we want to ensure sustainable growth of sportsmanship and level of the game. I intend to change this!"
   },
+
   "education" : {
     "title": "Educational platform",
     "text": "Regular and high-quality improvement of the skill level of all players, involved in rugby, and professionals across the continent should be one of Rugby Europe’s top priorities. We will be able to show consistent progress from year to year only by adopting the knowledge and experience of the best specialists. I intend to create a comprehensive educational program that will combine both online and offline training. A full-scale modern web-platform will be developed and launched during 2021. It will include all the progressive methods of teaching and providing information for players, coaches, referees and managers. In addition to that, an educational program for players and coaches in special training camps will be implemented and held annually in all countries."
+  },
+
+  "electronic-data" : {
+    "title": "Electronic database",
+    "text": "It is necessary to use modern means of accounting and generating statistics in order to improve the quality of competitions comprehensively. That is why I suggest creating a powerful web platform Rugby Europe, which will work not only for the benefit of continental, but also national tournaments. This is an independent service with the functions of accounting and certification of players, an electronic database of competitions with live updates, data exchange via api, which will simplify the work of managers, coaches and commissioners, will avoid the participation of disqualified players and those not allowed to compete, deliver the information to coaches right during the game, and will meet the world's advanced accounting and statistics standards. Expanding the amount of statistical data increases the interest in competitions from bookmakers, who in turn stimulate the interest of the audience."
+  },
+
+  "audience" : {
+    "title": "Audience is the main capital",
+    "text1": "It is necessary to increase the audience regularly, in order to ensure a steady growth in the popularity and level of rugby. It is critical to create an environment in which as many people as possible will be interested in European Rugby and will follow it. It is important to solve a set of problems to achieve this: to reform the approach of Rugby Europe to creating quality content. The goal is to create a modern website, mobile app and bright social networks that will be regularly filled with relevant and interesting information, post photos and videos of the highest quality.",
+    "text2": "In addition, Rugby Europe should promote the development of media presence of unions, providing both advisory and training, as well as technical assistance in the form of launching modern websites. Generate interest to competitions from the world's leading mass media. By 2024, the total audience of all Rugby Europe media platforms should reach 1 million people."
   }
 }

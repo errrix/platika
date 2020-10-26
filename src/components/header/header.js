@@ -44,9 +44,9 @@ function Header({t, i18n}) {
                             <a href="#educational-platform">{t("header.link8")}</a>
                         </div>
                         <div className="header__menu--column-2">
-                            <a href="#">{t("header.link9")}</a>
-                            <a href="#">{t("header.link10")}</a>
-                            <a href="#">{t("header.link11")}</a>
+                            <a href="#electronic-data">{t("header.link9")}</a>
+                            <a href="#audience">{t("header.link10")}</a>
+                            <a href="#spectator-program">{t("header.link11")}</a>
                             <a href="#">{t("header.link12")}</a>
                             <a href="#">{t("header.link13")}</a>
                             <a href="#">{t("header.link14")}</a>

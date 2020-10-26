@@ -9,6 +9,8 @@ import YouthRugby from "./components/youthRugby/youth-rugby";
 import WomansRugby from "./components/womensRugby/womens-rugby";
 import WorldRugby from "./components/worldRugby/world-rugby";
 import Education from "./components/education/education";
+import ElectronicData from "./components/electronic-data/electronic-data";
+import Audience from "./components/audience/audience";
 
 class App extends React.Component {
   render() {
@@ -24,6 +26,8 @@ class App extends React.Component {
           <WomansRugby/>
           <WorldRugby/>
           <Education/>
+          <ElectronicData/>
+          <Audience/>
         </div>
       </Suspense>
     
