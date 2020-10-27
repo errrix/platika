@@ -2,6 +2,7 @@ import "./index.scss";
 import {withTranslation} from 'react-i18next';
 import React from "react";
 import bgSpectator from "../spectator-program/images/spectator-bg.png";
+import spectatorMob from "../spectator-program/images/spectator-mob.png";
 
 function SpectatorProgram({t, i18n}) {
     return (
@@ -20,6 +21,9 @@ function SpectatorProgram({t, i18n}) {
                             {t("spectator-program.text2")}
                         </span>
                     </div>
+                </div>
+                <div className="spectator-program__image-block">
+                    <img className="spectator-program__image" src={spectatorMob} alt="SPECTATOR’S PROGRAM"/>
                 </div>
             </div>
         </div>

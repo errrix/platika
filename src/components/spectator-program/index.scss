@@ -10,7 +10,7 @@ $cmp: ".spectator-program";
   background-color: #10193E;
 
   &__content-block {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
   }
 
@@ -45,4 +45,42 @@ $cmp: ".spectator-program";
     }
   }
 
+  &__image-block {
+    display: none;
+  }
+
+  @media only screen and (max-width: 960px) {
+    background-image: none!important;
+    height: auto;
+    padding-top: 40px;
+    border-top: 5px solid #FFB800;
+
+    &__content-block {
+      max-width: 708px;
+    }
+
+    &__image-block {
+      display: block;
+      margin-top: -70px;
+    }
+
+    &__info {
+      flex-direction: column;
+    }
+
+    &__title {
+      width: 100%;
+      padding: 0 20px;
+      font-size: 25px;
+      box-sizing: border-box;
+    }
+
+    &__text {
+      width: 100%;
+      padding: 0 20px;
+      box-sizing: border-box;
+      margin-top: 25px;
+    }
+
+  }
 }
