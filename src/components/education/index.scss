@@ -6,6 +6,13 @@ $cmp: ".education";
   padding-top: 75px;
   min-height: 685px;
   font-size: 0;
+  background-size: cover;
+  background-position: center;
+
+  &__content-block {
+    width: 1440px;
+    margin: 0 auto;
+  }
 
   &__info {
     width: 940px;

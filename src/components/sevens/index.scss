@@ -4,6 +4,13 @@ $cmp: ".sevens";
   font-family: 'GilroyMedium', sans-serif;
   background-color: #FFF;
   font-size: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__content-block {
+    width: 1440px;
+    margin: 0 auto;
+  }
 
   &__text-image {
     display: flex;

@@ -6,6 +6,11 @@ $cmp: ".womens-rugby";
   padding-top: 60px;
   font-size: 0;
 
+  &__content-block {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
   &__info {
     width: 940px;
     margin: 0 auto;

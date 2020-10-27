@@ -5,10 +5,16 @@ $cmp: ".club-rugby";
   background-color: #10193E;
   background-repeat: no-repeat;
   background-position: top;
+  background-size: cover;
   padding: 50px 0 0 0;
   margin-top: -65px;
   position: relative;
   z-index: 4;
+
+  &__content-block {
+    width: 1440px;
+    margin: 0 auto;
+  }
 
   &__text-image {
     display: flex;

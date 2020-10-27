@@ -7,6 +7,11 @@ $cmp: ".inter-champ";
   min-height: 570px;
   font-size: 0;
 
+  &__content-block {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
   &__text-image {
     display: flex;
     justify-content: space-between;

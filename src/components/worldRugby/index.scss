@@ -6,6 +6,12 @@ $cmp: ".world-rugby";
   padding-top: 130px;
   min-height: 640px;
   font-size: 0;
+  background-size: cover;
+
+  &__content-block {
+    width: 1440px;
+    margin: 0 auto;
+  }
 
   &__info {
     width: 940px;
