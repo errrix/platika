@@ -5,21 +5,29 @@ $cmp: ".video";
   background-color: #10193E;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 570px;
   border-top: 5px solid #FFB800;
   border-bottom: 5px solid #FFB800;
 
   &__content-block {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 570px;
-
   }
 
   &__play-video--image {
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 960px) {
+    padding: 20px;
+
+    &__content-block {
+      max-width: 708px;
+      min-height: 0;
+      padding: 40px 0;
+    }
   }
 }

@@ -72,4 +72,41 @@ $cmp: ".inter-champ";
     position: relative;
     z-index: 3;
   }
+
+  @media only screen and (max-width: 960px) {
+    padding: 20px;
+    overflow: hidden;
+
+    &__content-block {
+      max-width: 708px;
+    }
+
+    &__text-image {
+      flex-direction: column-reverse;
+
+      &--text {
+        padding-left: 0;
+        margin-right: 0;
+      }
+
+      &--image {
+        position: relative;
+      }
+    }
+    &__image {
+      margin-top: 0;
+      margin-left: -30px;
+    }
+
+    &__text {
+      width: 100%;
+    }
+
+    &__title {
+      margin-top: 30px;
+      &:after {
+        width: 105%;
+      }
+    }
+  }
 }

@@ -57,5 +57,30 @@ $cmp: ".youth-rugby";
     margin-top: 35px;
   }
 
+  @media only screen and (max-width: 960px) {
+    padding-top: 50px;
+
+    &__content-block {
+      max-width: 708px;
+    }
+
+    &__info {
+      flex-direction: column;
+      width: auto;
+      padding: 0 20px;
+    }
+
+    &__title {
+      padding-right: 0;
+      margin-bottom: 25px;
+      &:after {
+        display: none;
+      }
+    }
+    &__text {
+      width: 100%;
+    }
+
+  }
 
 }
