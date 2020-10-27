@@ -10,7 +10,7 @@ $cmp: ".audience";
   background-color: #10193E;
 
   &__content-block {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
   }
 
@@ -20,6 +20,10 @@ $cmp: ".audience";
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  &__image-block {
+    display: none;
   }
 
   &__title {
@@ -47,4 +51,37 @@ $cmp: ".audience";
     }
   }
 
+  @media only screen and (max-width: 960px) {
+    background-image: none!important;
+    height: auto;
+    padding-bottom: 40px;
+
+    &__content-block {
+      max-width: 708px;
+    }
+
+    &__image-block {
+      display: block;
+    }
+
+    &__info {
+      align-items: center;
+      margin-top: -77px;
+    }
+
+    &__title {
+      width: 100%;
+      padding: 0 20px;
+      font-size: 25px;
+      box-sizing: border-box;
+    }
+
+    &__text {
+      width: 100%;
+      padding: 0 20px;
+      box-sizing: border-box;
+      margin-top: 25px;
+    }
+
+  }
 }

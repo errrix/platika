@@ -10,7 +10,7 @@ $cmp: ".electronic-data";
   background-color: #10193E;
 
   &__content-block {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
   }
 
@@ -33,6 +33,10 @@ $cmp: ".electronic-data";
     margin-top: 40px;
   }
 
+  &__image-block {
+    display: none;
+  }
+
   &__text {
     font-weight: 500;
     font-size: 12px;
@@ -42,4 +46,32 @@ $cmp: ".electronic-data";
     margin-top: 40px;
   }
 
+  @media only screen and (max-width: 960px) {
+    background-image: none!important;
+    height: auto;
+    padding-bottom: 40px;
+
+    &__content-block {
+      max-width: 708px;
+      padding: 0 20px;
+    }
+
+    &__image-block {
+      display: block;
+    }
+
+    &__info {
+      align-items: center;
+    }
+
+    &__title {
+      width: 100%;
+    }
+
+    &__text {
+      width: 100%;
+      margin-top: 25px;
+    }
+
+  }
 }
