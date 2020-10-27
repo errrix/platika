@@ -28,7 +28,7 @@ function Header({t, i18n}) {
                         <button onClick={() => i18n.changeLanguage('fr')}>Fr</button>
                         <button onClick={() => i18n.changeLanguage('ru')}>Ru</button>
                         <button onClick={() => i18n.changeLanguage('de')}>De</button>
-                        <button onClick={() => i18n.changeLanguage('es')}>Es</button>
+                        {/*<button onClick={() => i18n.changeLanguage('es')}>Es</button>*/}
                         <button onClick={() => i18n.changeLanguage('it')}>It</button>
                     </div>
 
