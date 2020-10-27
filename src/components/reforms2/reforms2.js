@@ -19,8 +19,8 @@ function Reforms2({t, i18n}) {
           {t("reforms2.description2")}
         </div>
       </div>
-      <img className="bg" src={bg} alt="bg"/>
-      <img className="photo" src={stadium} alt="stadium"/>
+      <img className="reforms2__bg" src={bg} alt="bg"/>
+      <img className="reforms2__photo" src={stadium} alt="stadium"/>
     </div>
   );
 }
