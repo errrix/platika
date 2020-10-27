@@ -41,7 +41,11 @@ $cmp: ".header";
     margin-left: -12px;
   }
   &__image-block {
-    width: 50%;
+    width: 53%;
+
+    img {
+      width: 100%;
+    }
   }
 
   &__rugby-logo {
@@ -133,7 +137,7 @@ $cmp: ".header";
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1500px;
-    width: 1440px;
+    max-width: 1440px;
   }
 
   &__about-text {

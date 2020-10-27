@@ -8,7 +8,7 @@ $cmp: ".broadcast";
   position: relative;
   min-height: 770px;
   box-sizing: border-box;
-
+  overflow: hidden;
 
   &__content {
     width: 940px;

@@ -7,8 +7,14 @@ $cmp: ".womens-rugby";
   font-size: 0;
 
   &__content-block {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+    height: 1098px;
   }
 
   &__info {

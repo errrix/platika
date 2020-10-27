@@ -12,7 +12,7 @@ $cmp: ".club-rugby";
   z-index: 4;
 
   &__content-block {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
   }
 
@@ -23,7 +23,16 @@ $cmp: ".club-rugby";
     &--text {
       margin-top: 100px;
       padding-left: 255px;
+      position: relative;
+      z-index: 3;
     }
+
+    &--image {
+      position: absolute;
+      right: 0;
+      z-index: 1;
+    }
+
   }
 
   &__title {
@@ -50,7 +59,7 @@ $cmp: ".club-rugby";
 
   &__border-bottom {
     background-color: #FFB800;
-    width: 940px;
+    max-width: 940px;
     height: 5px;
     margin: 100px auto 0 auto;
   }

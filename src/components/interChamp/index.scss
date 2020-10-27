@@ -4,21 +4,31 @@ $cmp: ".inter-champ";
   font-family: 'GilroyMedium', sans-serif;
   padding-top: 20px;
   background-color: #10193E;
-  min-height: 570px;
+  min-height: 755px;
   font-size: 0;
 
   &__content-block {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
   }
 
   &__text-image {
     display: flex;
     justify-content: space-between;
+    position: relative;
 
     &--text {
       padding-left: 185px;
       margin-right: -45px;
+      position: relative;
+      z-index: 2;
+    }
+
+    &--image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
     }
   }
 
