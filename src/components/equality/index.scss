@@ -12,7 +12,7 @@ $cmp: ".equality";
   &__content {
     display: flex;
     flex-direction: column;
-    width: 460px;
+    max-width: 460px;
     position: relative;
     z-index: 2;
     margin: 0 auto;
@@ -52,6 +52,35 @@ $cmp: ".equality";
     &.right {
       left: unset;
       right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+
+    padding-top: 50px;
+    min-height: auto;
+    font-size: 0;
+
+    &__content {
+      max-width: 708px;
+      justify-content: center;
+      padding-bottom: 70%;
+    }
+
+    .man {
+      max-width: 40%;
+    }
+    .bg {
+      height: 100%;
+    }
+
+    &__title {
+      font-size: 25px;
+      margin: 0 20px;
+    }
+
+    &__desc {
+      padding: 20px;
     }
   }
 }

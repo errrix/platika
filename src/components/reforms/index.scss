@@ -13,7 +13,7 @@ $cmp: ".reforms";
   &__content {
     display: flex;
     flex-direction: column;
-    width: 840px;
+    max-width: 840px;
     padding-left: 74px;
     position: relative;
     z-index: 2;
@@ -52,5 +52,37 @@ $cmp: ".reforms";
     z-index: 1;
     bottom: 0;
     right: 0;
+  }
+
+  @media only screen and (max-width: 960px) {
+    padding-top: 50px;
+    min-height: auto;
+    font-size: 0;
+
+    &__content {
+      max-width: 708px;
+      justify-content: center;
+      padding: 0 20px;
+    }
+
+    &__title {
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+
+    &__desc {
+      max-width: 100%;
+    }
+
+    .photo {
+      position: relative;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .bg {
+      height: 100%;
+      object-position: -300px -70px;
+    }
   }
 }
