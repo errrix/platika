@@ -29,5 +29,10 @@ $cmp: ".video";
       min-height: 0;
       padding: 40px 0;
     }
+
+    iframe {
+      max-width: 100%;
+      height: 200px;
+    }
   }
 }
