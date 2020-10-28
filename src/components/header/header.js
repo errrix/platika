@@ -8,6 +8,7 @@ import yashenkovPhoto from "./images/yashenkov.png";
 import React from "react";
 
 function Header({t, i18n}) {
+    console.log(i18n.language);
     return (
         <div className="header" style={{backgroundImage: `url(${bgLogo})`}}>
             <div className="header__content-block">
@@ -24,12 +25,12 @@ function Header({t, i18n}) {
                         </div>
                     </div>
                     <div className="header__button-block">
-                        <button onClick={() => i18n.changeLanguage('en')}>En</button>
-                        <button onClick={() => i18n.changeLanguage('fr')}>Fr</button>
-                        <button onClick={() => i18n.changeLanguage('ru')}>Ru</button>
-                        <button onClick={() => i18n.changeLanguage('de')}>De</button>
+                        <button onClick={() => i18n.changeLanguage('en')} className={(i18n.language === "en" ? "active" : false)}>En</button>
+                        <button onClick={() => i18n.changeLanguage('fr')} className={(i18n.language === "fr" ? "active" : false)}>Fr</button>
+                        <button onClick={() => i18n.changeLanguage('ru')} className={(i18n.language === "ru" ? "active" : false)}>Ru</button>
+                        <button onClick={() => i18n.changeLanguage('de')} className={(i18n.language === "de" ? "active" : false)}>De</button>
                         {/*<button onClick={() => i18n.changeLanguage('es')}>Es</button>*/}
-                        <button onClick={() => i18n.changeLanguage('it')}>It</button>
+                        <button onClick={() => i18n.changeLanguage('it')} className={(i18n.language === "it" ? "active" : false)}>It</button>
                     </div>
 
                     <div className="header__menu">

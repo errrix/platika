@@ -78,6 +78,11 @@ $cmp: ".header";
       height: 28px;
       width: 36px;
 
+      &.active {
+        color: #10193E;
+        background: #FFB800;
+      }
+
       &:active {
         color: #10193E;
         background: #FFB800;
