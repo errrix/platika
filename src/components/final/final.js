@@ -24,11 +24,10 @@ function Final({t, i18n}) {
               <a href="mailto:mail@yashenkov.org">mail@yashenkov.org</a>
             </div>
           </div>
-          <img className="img-bg" src={imgBg} alt="bg"/>
+          <a className="final__mail-mob" href="mailto:mail@yashenkov.org">mail@yashenkov.org</a>
+          <img className="img-bg ky" src={imgBg} alt="bg"/>
           <img className="img-bg bg" src={bg} alt="bg"/>
           <div className="liner-bg"/>
-          {/*<img className="man left" src={leftMan} alt="man"/>*/}
-          {/*<img className="man right" src={rightMan} alt="man"/>*/}
         </div>
     );
 }

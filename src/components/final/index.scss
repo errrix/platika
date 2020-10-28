@@ -56,6 +56,10 @@ $cmp: ".final";
     line-height: 20px;
   }
 
+  &__mail-mob {
+    display: none;
+  }
+
   .img-bg {
     height: 870px;
     width: 100%;
@@ -79,5 +83,82 @@ $cmp: ".final";
     bottom: 0;
     left: 0;
     background: linear-gradient(351.39deg, #0C173F 6.57%, rgba(12, 23, 63, 0.592582) 6.57%, rgba(12, 23, 63, 0) 116.96%);
+  }
+
+
+  @media only screen and (max-width: 960px) {
+    background-color: #0B163E;
+    font-size: 0;
+
+    &__wrapper {
+      padding-top: 80px;
+      min-height: auto;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      padding-bottom: 40px;
+      box-shadow: 0 13px 15px #0B163E;
+      position: relative;
+      z-index: 2;
+    }
+    &__content.bottom {
+      height: auto;
+    }
+
+    &__desc {
+      max-width: 330px;
+    }
+
+    &__content {
+      width: auto;
+      max-width: 708px;
+      padding: 0 20px;
+
+      &.bottom img {
+        width: 60px;
+        margin-right: 25px;
+      }
+      &.bottom h1 {
+        font-size: 24px;
+        max-width: 210px;
+      }
+      a {
+        display: none;
+      }
+    }
+
+    .liner-bg {
+      display: none;
+    }
+    .img-bg {
+      height: auto;
+      position: relative;
+      object-fit: cover;
+    }
+    .img-bg.bg {
+      position: absolute;
+      object-fit: cover;
+      height: 260px;
+    }
+
+    .img-bg.ky {
+      height: 360px;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    &__mail-mob {
+      display: block;
+      text-decoration: none;
+      font-family: "PFDinCondensedRegular", sans-serif;
+      font-size: 20px;
+      line-height: 26px;
+      text-transform: uppercase;
+      color: #FFB800;
+      position: absolute;
+      bottom: 20px;
+      z-index: 5;
+      width: 100%;
+      text-align: center;
+    }
   }
 }
