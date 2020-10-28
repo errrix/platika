@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3c7c7e7.chunk.css",
-    "main.js": "/static/js/main.7603a0d8.chunk.js",
-    "main.js.map": "/static/js/main.7603a0d8.chunk.js.map",
+    "main.css": "/static/css/main.dbdbf8e4.chunk.css",
+    "main.js": "/static/js/main.414a72ee.chunk.js",
+    "main.js.map": "/static/js/main.414a72ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a897af09.js",
     "runtime-main.js.map": "/static/js/runtime-main.a897af09.js.map",
     "static/js/2.8301f5a2.chunk.js": "/static/js/2.8301f5a2.chunk.js",
@@ -10,10 +10,11 @@
     "static/js/3.9d931928.chunk.js": "/static/js/3.9d931928.chunk.js",
     "static/js/3.9d931928.chunk.js.map": "/static/js/3.9d931928.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b3c7c7e7.chunk.css.map": "/static/css/main.b3c7c7e7.chunk.css.map",
+    "static/css/main.dbdbf8e4.chunk.css.map": "/static/css/main.dbdbf8e4.chunk.css.map",
     "static/js/2.8301f5a2.chunk.js.LICENSE.txt": "/static/js/2.8301f5a2.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/PFDinCondensedRegular.fb35ccf3.ttf",
     "static/media/audience-bg.eec43051.png": "/static/media/audience-bg.eec43051.png",
+    "static/media/audience-mob.07a1724c.png": "/static/media/audience-mob.07a1724c.png",
     "static/media/bg-world-rugby.5f5e3c3f.png": "/static/media/bg-world-rugby.5f5e3c3f.png",
     "static/media/bg-youth-rugby.9503bd68.png": "/static/media/bg-youth-rugby.9503bd68.png",
     "static/media/bg.0fa6e99c.png": "/static/media/bg.0fa6e99c.png",
@@ -29,12 +30,14 @@
     "static/media/img-bg.a3bb8f70.png": "/static/media/img-bg.a3bb8f70.png",
     "static/media/international-cup.72350fa5.png": "/static/media/international-cup.72350fa5.png",
     "static/media/leftman.2a8edff1.png": "/static/media/leftman.2a8edff1.png",
+    "static/media/mac_mob.5f7de2ec.png": "/static/media/mac_mob.5f7de2ec.png",
     "static/media/photo.d3bc593b.png": "/static/media/photo.d3bc593b.png",
     "static/media/rightman.661a309f.png": "/static/media/rightman.661a309f.png",
     "static/media/rugby_europe_logo.993840a4.png": "/static/media/rugby_europe_logo.993840a4.png",
     "static/media/seven-bg.6fa8ce85.svg": "/static/media/seven-bg.6fa8ce85.svg",
     "static/media/seven-player.3e2e1d4f.png": "/static/media/seven-player.3e2e1d4f.png",
     "static/media/spectator-bg.37373221.png": "/static/media/spectator-bg.37373221.png",
+    "static/media/spectator-mob.aa7466a3.png": "/static/media/spectator-mob.aa7466a3.png",
     "static/media/stadium-reforms.c7b8126a.png": "/static/media/stadium-reforms.c7b8126a.png",
     "static/media/stadium.372a7280.png": "/static/media/stadium.372a7280.png",
     "static/media/star-top.8d4b3734.svg": "/static/media/star-top.8d4b3734.svg",
@@ -50,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.a897af09.js",
     "static/js/2.8301f5a2.chunk.js",
-    "static/css/main.b3c7c7e7.chunk.css",
-    "static/js/main.7603a0d8.chunk.js"
+    "static/css/main.dbdbf8e4.chunk.css",
+    "static/js/main.414a72ee.chunk.js"
   ]
 }
