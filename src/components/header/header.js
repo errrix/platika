@@ -77,6 +77,7 @@ function Header({t, i18n}) {
                         {t("header.about-signature")}
                     </p>
                 </p>
+                <img className="header__about-bg-mob" src={yashenkovPhoto}/>
             </div>
         </div>
     );
