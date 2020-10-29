@@ -22,10 +22,13 @@ class  Video extends Component {
         <div className="video__content-block">
           <div className="video__play-video">
             {!this.state.showVideo &&
-              <img className="video__play-video--image"
-                src={playVideo}
-                onClick={this.playVideoHandler}
-                alt="play"/>
+                <div className="video__condition">
+                  <p className="video__title">Any title</p>
+                  <img className="video__play-video--image"
+                       src={playVideo}
+                       onClick={this.playVideoHandler}
+                       alt="play"/>
+                </div>
             }
             {this.state.showVideo &&
             <iframe className="iframe" width="630" height="400" src="https://www.youtube.com/embed/IdwLbtYlkSA?&autoplay=1" frameBorder="0"

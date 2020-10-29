@@ -19,6 +19,24 @@ $cmp: ".video";
 
   &__play-video--image {
     cursor: pointer;
+    max-width: 630px;
+    width: 100%;
+  }
+
+  &__condition {
+    position: relative;
+  }
+
+  &__title {
+    position: absolute;
+    top: -55px;
+    left: 40px;
+    margin: 0;
+    font-family: "PFDinCondensedRegular", sans-serif;
+    font-size: 100px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #FFB800;
   }
 
   @media only screen and (max-width: 960px) {
@@ -28,6 +46,12 @@ $cmp: ".video";
       max-width: 708px;
       min-height: 0;
       padding: 40px 0;
+    }
+
+    &__title {
+      font-size: 40px;
+      top: -20px;
+      left: 20px;
     }
 
     iframe {

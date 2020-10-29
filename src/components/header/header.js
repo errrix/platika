@@ -29,7 +29,7 @@ function Header({t, i18n}) {
                         <button onClick={() => i18n.changeLanguage('fr')} className={(i18n.language === "fr" ? "active" : false)}>Fr</button>
                         <button onClick={() => i18n.changeLanguage('ru')} className={(i18n.language === "ru" ? "active" : false)}>Ru</button>
                         <button onClick={() => i18n.changeLanguage('de')} className={(i18n.language === "de" ? "active" : false)}>De</button>
-                        {/*<button onClick={() => i18n.changeLanguage('es')}>Es</button>*/}
+                        <button onClick={() => i18n.changeLanguage('es')} className={(i18n.language === "es" ? "active" : false)}>Es</button>
                         <button onClick={() => i18n.changeLanguage('it')} className={(i18n.language === "it" ? "active" : false)}>It</button>
                     </div>
 
