@@ -34,6 +34,10 @@ $cmp: ".header";
     align-items: center;
     color: #FFB800;
 
+    .header__rugby-logo {
+      width: 110px;
+      flex-shrink: 0;
+    }
   }
 
   &__text-image {

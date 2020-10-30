@@ -2,6 +2,7 @@ import "./index.scss";
 import React, {Component} from "react";
 import bgVl from "../video/images/video-line.png";
 import playVideo from "../video/images/video-img.png";
+import { withTranslation } from 'react-i18next';
 
 class  Video extends Component {
   constructor(props) {
@@ -23,7 +24,9 @@ class  Video extends Component {
           <div className="video__play-video">
             {!this.state.showVideo &&
                 <div className="video__condition">
-                  <p className="video__title">Any title</p>
+                  <p className="video__title">
+                    {this.props.t('header.about-strong')}
+                  </p>
                   <img className="video__play-video--image"
                        src={playVideo}
                        onClick={this.playVideoHandler}
@@ -42,5 +45,4 @@ class  Video extends Component {
   }
 }
 
-
-export default Video;
+export default withTranslation("common")(Video);

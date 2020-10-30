@@ -5,6 +5,7 @@ import common_ru from "./translations/ru/common.json";
 import common_it from "./translations/it/common.json";
 import common_de from "./translations/de/common.json";
 import common_fr from "./translations/fr/common.json";
+import common_es from "./translations/es/common.json";
 
 i18next.use(LanguageDetector)
   .init({
@@ -28,6 +29,9 @@ i18next.use(LanguageDetector)
       },
       fr: {
         common: common_fr
+      },
+      es: {
+        common: common_es
       }
     },
   });
