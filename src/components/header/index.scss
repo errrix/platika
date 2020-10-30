@@ -34,10 +34,10 @@ $cmp: ".header";
     align-items: center;
     color: #FFB800;
 
-    .header__rugby-logo {
-      width: 110px;
-      flex-shrink: 0;
-    }
+    //.header__rugby-logo {
+    //  width: 110px;
+    //  flex-shrink: 0;
+    //}
   }
 
   &__text-image {
@@ -54,6 +54,8 @@ $cmp: ".header";
 
   &__rugby-logo {
     margin-right: 30px;
+    width: 110px;
+    flex-shrink: 0;
   }
 
   &__title {
@@ -208,6 +210,7 @@ $cmp: ".header";
 
     &__rugby-logo {
       margin-right: 10px;
+      width: auto;
 
       img {
         width: 48px;
