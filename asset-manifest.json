@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1fbbb062.chunk.css",
-    "main.js": "/static/js/main.c0a2e78a.chunk.js",
-    "main.js.map": "/static/js/main.c0a2e78a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a897af09.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a897af09.js.map",
-    "static/js/2.672be0eb.chunk.js": "/static/js/2.672be0eb.chunk.js",
-    "static/js/2.672be0eb.chunk.js.map": "/static/js/2.672be0eb.chunk.js.map",
-    "static/js/3.9d931928.chunk.js": "/static/js/3.9d931928.chunk.js",
-    "static/js/3.9d931928.chunk.js.map": "/static/js/3.9d931928.chunk.js.map",
+    "main.css": "/static/css/main.00fbc919.chunk.css",
+    "main.js": "/static/js/main.9ab6d54a.chunk.js",
+    "main.js.map": "/static/js/main.9ab6d54a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.358ca83d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.358ca83d.js.map",
+    "static/js/2.eac16dbb.chunk.js": "/static/js/2.eac16dbb.chunk.js",
+    "static/js/2.eac16dbb.chunk.js.map": "/static/js/2.eac16dbb.chunk.js.map",
+    "static/js/3.873c859a.chunk.js": "/static/js/3.873c859a.chunk.js",
+    "static/js/3.873c859a.chunk.js.map": "/static/js/3.873c859a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1fbbb062.chunk.css.map": "/static/css/main.1fbbb062.chunk.css.map",
-    "static/js/2.672be0eb.chunk.js.LICENSE.txt": "/static/js/2.672be0eb.chunk.js.LICENSE.txt",
+    "static/css/main.00fbc919.chunk.css.map": "/static/css/main.00fbc919.chunk.css.map",
+    "static/js/2.eac16dbb.chunk.js.LICENSE.txt": "/static/js/2.eac16dbb.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/PFDinCondensedRegular.fb35ccf3.ttf",
     "static/media/audience-bg.eec43051.png": "/static/media/audience-bg.eec43051.png",
     "static/media/audience-mob.07a1724c.png": "/static/media/audience-mob.07a1724c.png",
@@ -44,16 +44,16 @@
     "static/media/top-foto.f60c1754.png": "/static/media/top-foto.f60c1754.png",
     "static/media/types_bg.64dc6e90.png": "/static/media/types_bg.64dc6e90.png",
     "static/media/types_img.3fdd9206.png": "/static/media/types_img.3fdd9206.png",
-    "static/media/video-img.a65c1533.png": "/static/media/video-img.a65c1533.png",
+    "static/media/video-img.d8c88141.png": "/static/media/video-img.d8c88141.png",
     "static/media/video-line.4f193024.png": "/static/media/video-line.4f193024.png",
     "static/media/women-rugby-team.e230f1b1.png": "/static/media/women-rugby-team.e230f1b1.png",
     "static/media/yashenkov.499ffe2b.png": "/static/media/yashenkov.499ffe2b.png",
     "static/media/youth-rugby-team.b8317d05.png": "/static/media/youth-rugby-team.b8317d05.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a897af09.js",
-    "static/js/2.672be0eb.chunk.js",
-    "static/css/main.1fbbb062.chunk.css",
-    "static/js/main.c0a2e78a.chunk.js"
+    "static/js/runtime-main.358ca83d.js",
+    "static/js/2.eac16dbb.chunk.js",
+    "static/css/main.00fbc919.chunk.css",
+    "static/js/main.9ab6d54a.chunk.js"
   ]
 }
