@@ -5,10 +5,10 @@ import topPhoto from "./images/top-foto.png";
 import headerFrame from "./images/header-frame.png";
 import rugbyLogo from "./images/rugby_europe_logo.png";
 import yashenkovPhoto from "./images/yashenkov.png";
+import facebook from "./images/facebook-icon.png";
 import React from "react";
 
 function Header({t, i18n}) {
-    console.log(i18n.language);
     return (
         <div className="header" style={{backgroundImage: `url(${bgLogo})`}}>
             <div className="header__content-block">
@@ -54,6 +54,14 @@ function Header({t, i18n}) {
                             <a href="#reforms">{t("header.link15")}</a>
                             <a href="#commerce">{t("header.link16")}</a>
                         </div>
+                    </div>
+                    
+                    <div className="header__outer-link">
+                        <a href="https://drive.google.com/file/d/1OFyShoXkIsLGn4Okv0TWVLnH7a6ZUOVT/view" target="_blank">Download resume</a>
+                        <a href="https://www.facebook.com/kirill.yashenkov.1" target="_blank">
+                            <img src={facebook} alt="facebook"/>
+                            <span>facebook page</span>
+                        </a>
                     </div>
 
                 </div>

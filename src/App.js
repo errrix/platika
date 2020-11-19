@@ -18,13 +18,17 @@ import Equality from "./components/equality/equality";
 import Reforms from "./components/reforms/reforms";
 import Reforms2 from "./components/reforms2/reforms2";
 import Final from "./components/final/final";
+import Plan from "./components/plan/plan";
 
-class App extends React.Component {
-  render() {
+import {withTranslation} from 'react-i18next';
+
+const App = ({t, i18n})=> {
     return (
       <Suspense fallback="loading">
         <div className="container">
           <Header/>
+          {i18n.language === "en" && <Plan/>}
+        
           <Video/>
           <InterChamp/>
           <Sevens/>
@@ -46,9 +50,8 @@ class App extends React.Component {
       </Suspense>
     
     );
-  }
 }
 
 
 
-export default App;
+export default withTranslation("common")(App);

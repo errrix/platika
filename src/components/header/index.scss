@@ -101,6 +101,7 @@ $cmp: ".header";
     margin-top: 42px;
     position: relative;
     z-index: 5;
+    margin-bottom: 40px;
 
     a {
       font-family: "PFDinCondensedRegular", sans-serif;
@@ -114,6 +115,25 @@ $cmp: ".header";
 
       &:hover {
         text-decoration: underline;
+      }
+    }
+  }
+
+  &__outer-link {
+    position: relative;
+    z-index: 20;
+
+    a {
+      color: #FFB800;
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 14px;
+
+      span {
+        margin-left: 6px;
+        color: #FFB800;
+        font-size: 14px;
       }
     }
   }
@@ -182,6 +202,16 @@ $cmp: ".header";
 
     &__menu {
       display: none;
+    }
+
+    &__outer-link {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      a {
+        margin-bottom: 7px;
+      }
     }
 
     &__image-block {
